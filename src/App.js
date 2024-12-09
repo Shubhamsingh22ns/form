@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Demo from './component/Demo';
+import Shubham from './component/Shubham';
+import React , {useState } from 'react';
+import IncDec from './component/IncDec';
+import NewShubham from './component/NewShubham';
+import Form from './component/Form';
+
+
 function App() {
+
+  function child(object){
+    console.log("I'm Inside App .JS")
+    console.log(object)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    
+      Jai Shree RAM ..
+      <Form/>
+      
+      
     </div>
   );
 }
