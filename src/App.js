@@ -7,6 +7,7 @@ import React , {useState } from 'react';
 import IncDec from './component/IncDec';
 import NewShubham from './component/NewShubham';
 import Form from './component/Form';
+import NewForm from './component/NewForm';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
     <div >
     
       Jai Shree RAM ..
-      <Form/>
+      {/* <Form/> */}
+      <NewForm/>
       
       
     </div>
